@@ -24,6 +24,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    int a = 5;
+    int b = 10;
+    
+    self.sun = a + b;
+    NSLog(@"~~~~~%d",self.sun);
+    
 }
 
 @end
