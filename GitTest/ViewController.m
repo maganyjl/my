@@ -29,9 +29,8 @@
     int b = 10;
     
     self.sun = a + b;
-    
-    NSLog(@"aaaaaaaa");
-    
+
+    NSLog(@"bbbbbb");
 }
 
 @end
