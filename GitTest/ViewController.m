@@ -30,7 +30,6 @@
     
     self.sun = a + b;
     
-    int c = 100;
 }
 
 @end
