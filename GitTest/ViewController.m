@@ -30,6 +30,8 @@
     
     self.sun = a + b;
     
+    NSLog(@"aaaaaaaa");
+    
 }
 
 @end
