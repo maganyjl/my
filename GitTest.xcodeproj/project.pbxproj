@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886C0D2D19512FA9003C7A4E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C0D2C19512FA9003C7A4E /* TwoViewController.m */; };
 		88A3D42E194EF2C9003C17A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3D42D194EF2C9003C17A9 /* Foundation.framework */; };
 		88A3D430194EF2C9003C17A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3D42F194EF2C9003C17A9 /* CoreGraphics.framework */; };
 		88A3D432194EF2C9003C17A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3D431194EF2C9003C17A9 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		886C0D2B19512FA9003C7A4E /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		886C0D2C19512FA9003C7A4E /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		88A3D42A194EF2C9003C17A9 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A3D42D194EF2C9003C17A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88A3D42F194EF2C9003C17A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				88A3D43F194EF2C9003C17A9 /* Main.storyboard */,
 				88A3D442194EF2C9003C17A9 /* ViewController.h */,
 				88A3D443194EF2C9003C17A9 /* ViewController.m */,
+				886C0D2B19512FA9003C7A4E /* TwoViewController.h */,
+				886C0D2C19512FA9003C7A4E /* TwoViewController.m */,
 				88A3D445194EF2C9003C17A9 /* Images.xcassets */,
 				88A3D434194EF2C9003C17A9 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				88A3D444194EF2C9003C17A9 /* ViewController.m in Sources */,
 				88A3D43E194EF2C9003C17A9 /* AppDelegate.m in Sources */,
 				88A3D43A194EF2C9003C17A9 /* main.m in Sources */,
+				886C0D2D19512FA9003C7A4E /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				88A3D45E194EF2C9003C17A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88A3D45F194EF2C9003C17A9 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				88A3D461194EF2C9003C17A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
