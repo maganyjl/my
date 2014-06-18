@@ -30,6 +30,8 @@
     
     self.sun = a + b;
     
+    int c = 111;
+    
 }
 
 @end
