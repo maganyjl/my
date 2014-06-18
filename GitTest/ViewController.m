@@ -29,7 +29,7 @@
     int b = 10;
     
     self.sun = a + b;
-
+    NSLog(@"dsfasdfasd");
 }
 
 @end
